@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV File Upload</title>
+</head>
+<body style="background-color: black; color: white; text-align: center; padding-top: 50px;">
+
+    <h1>Upload a CSV File</h1>
+
+    <form action="/upload" method="post" enctype="multipart/form-data" style="display: flex; justify-content: center;">
+        <label for="file" style="background-color: yellow; border: 2px solid white; padding: 10px; cursor: pointer; border-radius: 5px;">
+            Choose a CSV file
+            <input type="file" name="file" id="file" accept=".csv" style="display: none;">
+        </label>
+        <input type="submit" value="Upload" style="background-color: yellow; border: 2px solid white; padding: 10px; border-radius: 5px; cursor: pointer;">
+    </form>
+
+</body>
+</html>
